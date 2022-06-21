@@ -23,7 +23,7 @@ FROM Production.Product
 WHERE Color IS NOT NULL
 
 --6.
-SELECT Name, Color 
+SELECT 'NAME: '+ Name + ' -- COLOR: ' + Color 
 FROM Production.Product 
 WHERE Name IN ('LL Crankarm', 'ML Crankarm', 'HL Crankarm', 'Chainring Bolts', 'Chainring Nut', 'Chainring') AND Color IN ('Black','Silver')
 
