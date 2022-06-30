@@ -3,15 +3,15 @@ using System.Text;
 
 namespace ArraysAndStrings
 {
-	public class ReverseWords
-	{
-		public void Run(string s)
-		{
-			char[] separators = new char[] { '.', ',', ':', ';', '=', '(', ')', '&', '[', ']', '"', '\'', '\\', '/', '!', '?', ' ' };
+    public class ReverseWords
+    {
+        public void Run(string s)
+        {
+            char[] separators = new char[] { '.', ',', ':', ';', '=', '(', ')', '&', '[', ']', '"', '\'', '\\', '/', '!', '?', ' ' };
 
-			string[] words = s.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string[] words = s.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
-			StringBuilder sb = new StringBuilder(s.Length);
+            StringBuilder sb = new StringBuilder(s.Length);
             int i = words.Length - 1, j = 0;
 
             while (i >= 0)
@@ -31,7 +31,7 @@ namespace ArraysAndStrings
             }
 
             Console.WriteLine(sb);
-		}
-	}
+        }
+    }
 }
 

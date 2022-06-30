@@ -4,42 +4,42 @@ using System.Text.RegularExpressions;
 
 namespace ArraysAndStrings
 {
-	public class ExtractPalindromes
-	{
-		public bool IsPalindrome(string s)
+    public class ExtractPalindromes
+    {
+        public bool IsPalindrome(string s)
         {
-			int i = 0, j = s.Length - 1;
-			while (i <= j)
+            int i = 0, j = s.Length - 1;
+            while (i <= j)
             {
-				if (!(s[i] == s[j]))
+                if (!(s[i] == s[j]))
                 {
-					return false;
+                    return false;
                 }
-				i++;
-				j--;
+                i++;
+                j--;
             }
-			return true;
+            return true;
         }
 
-		public void Run(string s)
+        public void Run(string s)
         {
-			string pattern = "[^A-Za-z]+";
-			string[] words = Regex.Split(s, pattern);
-			Array.Sort(words);
+            string pattern = "[^A-Za-z]+";
+            string[] words = Regex.Split(s, pattern);
+            Array.Sort(words);
 
-			HashSet<string> output = new HashSet<string>();
+            HashSet<string> output = new HashSet<string>();
 
-			foreach(string word in words)
+            foreach (string word in words)
             {
-				if (IsPalindrome(word))
+                if (IsPalindrome(word))
                 {
-					output.Add(word);
+                    output.Add(word);
                 }
             }
 
-			Console.WriteLine(String.Join(", ", output));
+            Console.WriteLine(String.Join(", ", output));
         }
 
-	}
+    }
 }
 

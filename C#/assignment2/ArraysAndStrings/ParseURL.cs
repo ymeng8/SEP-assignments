@@ -3,39 +3,39 @@ using System.Text;
 
 namespace ArraysAndStrings
 {
-	public class ParseURL
-	{
-		public void Run(string url)
-		{
-			StringBuilder sb = new StringBuilder();
-			string[] output = new string[3];
+    public class ParseURL
+    {
+        public void Run(string url)
+        {
+            StringBuilder sb = new StringBuilder();
+            string[] output = new string[3];
 
-			int i = 0;
-			while (i<url.Length)
+            int i = 0;
+            while (i < url.Length)
             {
-				if (url[i] == ':')
+                if (url[i] == ':')
                 {
-					output[0] = sb.ToString();
-					sb.Clear();
-					i += 3;
+                    output[0] = sb.ToString();
+                    sb.Clear();
+                    i += 3;
                 }
-				else if (url[i] == '/')
+                else if (url[i] == '/')
                 {
-					output[2] = url.Substring(i+1);
-					i = url.Length;
+                    output[2] = url.Substring(i + 1);
+                    i = url.Length;
                 }
-				else
+                else
                 {
-					sb.Append(url[i]);
-					i++;
+                    sb.Append(url[i]);
+                    i++;
                 }
             }
-			output[1] = sb.ToString();
+            output[1] = sb.ToString();
 
-			Console.WriteLine($"[protocol] = \"{output[0]}\"");
-			Console.WriteLine($"[server] = \"{output[1]}\"");
-			Console.WriteLine($"[resource] = \"{output[2]}\"");
-		}
-	}
+            Console.WriteLine($"[protocol] = \"{output[0]}\"");
+            Console.WriteLine($"[server] = \"{output[1]}\"");
+            Console.WriteLine($"[resource] = \"{output[2]}\"");
+        }
+    }
 }
 
