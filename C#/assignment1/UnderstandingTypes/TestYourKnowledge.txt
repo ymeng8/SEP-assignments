@@ -1,0 +1,27 @@
+﻿1. Types for following numbers:
+- a person's telephone number: int
+- a person's height: double
+- a person's age: int
+- a person's gender: string
+- a person's salary: double
+- a book's isbn: int
+- a book's price: double
+- a book's shipping weight: double
+- a country's population: int
+- the number of stars in the universe: long
+- the number of employees in a business (up to 50k): int
+
+2. Differences between value type and reference type variables:
+Value type variables directly hold the value, while reference type holds the memory address or reference for the value.
+Value type variables are created by struct or enum, while reference type created by class, intereface, delegate, array.
+Value type variables are stored in stack memory, while reference type stored in heap memory.
+Only reference type variables are managed by garbage collector.
+Only reference type variables accept null value.
+
+Boxing converts a value type variable into a reference type variable.
+Unboxing converts a reference type variable into a value type variable.
+
+3. Managed resources are code that is maneged by the common language runtime, which includes the garbage collector.
+Unmanaged resources are handled by the programmer and can't be freedup by the garbage collector.
+
+4. The purpose of garbage collector is to manage the allocation and release of memory for programs.

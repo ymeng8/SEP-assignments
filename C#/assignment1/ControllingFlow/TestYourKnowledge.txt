@@ -1,0 +1,10 @@
+﻿1. When you divide an int variable by 0, the code compiles, runs, throws a System.DivideByZeroException error.
+2. When you divide a double variable by 0, the code compiles, runs, returns infinity.
+3. When you overflow an int variable, the code doesn't compile.
+4. x = y++ sets value of x to y, then increment y by 1; x = ++y increments y by 1, then sets x to the incremented value.
+5. break terminates the loop it's in; continue skips to the next iteration; return terminates the method currently excuting and and returns a value (optional) to caller.
+6. The three parts of a for statement are initializer, condition, and iterator. All three are option in C#.
+7. The = operator assigns value to variable; the == operator check if values of the two variables are equal.
+8. Yes.
+9. The underscore represents the default case (didn't match anything before) in a switch statement.
+10. IEnumerator and IEnumerable. 

@@ -1,0 +1,7 @@
+﻿1. Use String when you won't modify the string; use StringBuilder when you need to modify the string.
+2. The Array class.
+3. Use Array.Sort() method and/or Array.Reverse() method.
+4. Array.Length property.
+5. Yes if we use an array of Object class.
+6. System.Array.CopyTo() requires a destination array to already exist, while System.Array.Clone() returns a new array.
+System.Array.CopyTo() allows you to specify an index in the destination array, while System.Array.Clone() does not.
