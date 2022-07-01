@@ -1,0 +1,32 @@
+﻿1. Six accessibility:
+(1) public: access is not restricted
+(2) protected: access limited to the current class and class derived from it
+(3) internal: access limited to the current assembly
+(4) private: access limited to the current class
+(5) protected internal: access limited to the current assembly or current class and derived class
+(6) private protected: access limited to the current class or derived class within the current assembly
+2. static vs const vs readonly
+- const members must be assigned a value when it's declared and can't be modified; they are by default static
+- readonly members don't have to be assigned a value at the time of declaration; they are not static by default
+- static members belong to the type itself, not to specific objects
+3. A constructor creates an object of the class and initialize class members.
+4. The partial keyword allows us to split the definition of a class/struct/interface/method over multiple source files. This is desirable when working on large projects, for example.
+5. A tuple is a data structure that contains a sequence of elements of different data types.
+6. The record keyword make object immutable and act like a value type.
+7. Overloading refers to methods in the same class that have the same name but different input and output parameters. Overriding refers to methods in the base class and subclasses that have the same signature.
+8. Fields are almost always kept private and only accessed via the get and set properties. Properties allow you to read and write fields while protecting the data.
+9. We can make a method parameter optional by giving it a default value.
+10. An interface is a collection of methods which are by default abstract and implemented in derived classes. Interface provides functionalities that can be implemented by any class and one class can implement multiple interfaces. But one class can only inherit from one base class and base class functionalities are provided to subclasses only. 
+11. Members of an interface are public by default.
+12. True
+13. True
+14. False
+15. False
+16. True
+17. True
+18. True
+19. False
+20. False
+21. True
+22. False
+23. True
