@@ -1,0 +1,10 @@
+﻿1. Generics allow us to create method/class/interface but defer specification of type until it is declared and called. By using generics we can avoid rewriting the same code while protecting type safety and avoiding unwanted boxing.
+2. List<string> ls = new List<string>();
+3. 2
+4. True
+5. The Add(T item) method
+6. Remove(T item) or RemoveAt(int index) 
+7. Add <T> to the class name
+8. False
+9. True
+10. False
