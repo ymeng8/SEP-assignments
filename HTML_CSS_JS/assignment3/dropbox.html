@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Dropbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="fluid-container" style="box-shadow: 0px 2px 1px lightgrey;">
+        <div class="row text-center" style="height: 75px;">
+            <div class="col p-0 my-auto">
+                <button class="btn btn-outline-primary fw-semibold" style="font-size: 12px;">Try Dropbox
+                    Business</button>
+            </div>
+            <div class="col p-0 my-auto">
+                <img src="https://cfl.dropboxstatic.com/static/images/logo_catalog/dropbox_logo_glyph_2015_m1.svg"
+                    alt="logo" width="46px" height="46px" style="margin-right: 4px;">
+                <img src="https://cfl.dropboxstatic.com/static/images/logo_catalog/dropbox_logo_text_2015_m1.svg"
+                    alt="dropbox" width="120px" height="34px">
+            </div>
+            <div class="col p-0 my-auto">
+                <a href="#" class="text-decoration-none" style="font-size:14px;">Download the app</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="fluid-container">
+        <div class="container p-0 my-5" style="width: 740px;">
+            <div class="row m-0">
+                <div class="col p-0">
+                    <div class="alert alert-warning alert-dismissible fade show border-0 rounded-0 m-0" role="alert"
+                        style="background-color:hsla(36,23%,55%,.14); color:#1e1919; font-size: 14px; padding: 10px;">
+                        <span class="align-middle">Dropbox Passwords remembers your login credentials, so you don't have
+                            to.</span>
+                        <a href="#" class="align-midde"
+                            style="color:#1e1919; font-weight: 500; text-decoration: none; padding-bottom: 2px; border-bottom: 1px solid hsla(36,10%,61%,.6);">Try
+                            Dropbox Passwords</a>
+                        <span class="ms-3">
+                            <button type="button" class="btn-close p-0 align-middle" data-bs-dismiss="alert"
+                                style="position: static; width:24px; height:24px; color:#1e1919; opacity:.75;"></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5 m-0">
+                <div class="d-flex col-6 p-0 align-items-center">
+                    <img src="https://i.postimg.cc/7YK9g58g/dropbox-login-logo.png" alt="login-image" width="80%">
+                </div>
+                <div class="d-flex flex-column col-6 ps-3 pe-0">
+                    <div class="d-flex justify-content-between align-items-end" style="margin: 15px 0px;">
+                        <div style="font-size: 18px;">Sign in</div>
+                        <div style="font-size: 13px;">or<a href="#" class="text-decoration-none"> create an account</a>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="button"
+                            class="d-flex btn btn-outline-dark rounded-0 border border-2 border-dark"
+                            style="font-weight: 500; padding: 10px 12px; margin-bottom: 10px;">
+                            <div class="d-flex flex-fill align-self-center px-1">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="google"
+                                    width="18px">
+                            </div>
+                            <div class="d-flex flex-fill">Sign in with Google</div>
+                        </button>
+                        <button type="button"
+                            class="d-flex btn btn-outline-dark rounded-0 border border-2 border-dark"
+                            style="font-weight: 500; padding: 10px 12px;">
+                            <div class="d-flex flex-fill align-self-center px-1">
+                                <img src="https://cdn-icons-png.flaticon.com/512/154/154870.png" alt="apple"
+                                    width="21px">
+                            </div>
+                            <div class="d-flex flex-fill">Sign in with Apple</div>
+                        </button>
+                    </div>
+                    <div class="d-flex" style="padding:0; margin: 15px 0px;">
+                        <div class="d-flex flex-fill my-auto">
+                            <hr style="width:100%; height:1px; opacity:20%; margin:0;">
+                        </div>
+                        <div class="d-flex mx-2" style="color:#1e1919; font-size:13px;">or</div>
+                        <div class="d-flex flex-fill my-auto">
+                            <hr style="width:100%; height:1px; opacity:20%; margin:0;">
+                        </div>
+                    </div>
+                    <form style="color:#737373;">
+                        <div style="margin-bottom:22px;">
+                            <label class="form-label mb-0" for="email-control">Email</label>
+                            <input class="form-control" type="email" id="email-control"
+                                style="border: 1px solid #958c7e; border-radius: 3px; font-size:14px; padding: 5px 6px;">
+                        </div>
+                        <div style="margin-bottom:22px;">
+                            <label class="form-label mb-0" for="pw-control">Password</label>
+                            <input class="form-control px-2" type="password" id="pw-control"
+                                style="border: 1px solid #958c7e; border-radius: 3px; font-size:14px; padding: 5px 6px;">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="remember-me" checked>
+                                <label class="form-check-label m-0" for="remember-me"
+                                    style="color: #1e1919; font-size: 13px;">Remember me</label>
+                            </div>
+                            <button class="btn btn-primary"
+                                style="font-size: 13px; font-weight: 600; border-radius: 3px; padding: 6px 16px; background-color: #0070e0; border: 1px solid #0c6ebe; background-image: linear-gradient(#168add, #007ee5);">Sign
+                                in</button>
+                        </div>
+                        <div style="margin-top:18px;">
+                            <a href="#" class="text-decoration-none" style="font-size: 13px;">Forgot your password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
