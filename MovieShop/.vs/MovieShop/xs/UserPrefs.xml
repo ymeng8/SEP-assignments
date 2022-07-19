@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{A0DD2560-3C0E-4908-9995-FEE8A3F9957A}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/yanjun.meng/Documents/GitHub/SEP-assignments/MovieShop/ApplicationCore/Class1.cs" relfile="ApplicationCore/Class1.cs" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Services/UserService.cs">
+    <Files>
+      <File FileName="Infrastructure/Services/MovieService.cs" Line="1" Column="14" />
+      <File FileName="Infrastructure/Services/UserService.cs" Line="8" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieShop" expanded="True">
+            <Node name="ApplicationCore" expanded="True">
+              <Node name="Contracts" expanded="True">
+                <Node name="Repository" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Repository" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="MovieShopMVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieShopMVC FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.ApplicationCore FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
